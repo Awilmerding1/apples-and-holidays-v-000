@@ -58,6 +58,8 @@ def all_holidays_with_bbq(holiday_hash)
      data
   end
     data.each do |holiday, list|
+      holiday
+    end
      if list.include?("BBQ")
   end
 
