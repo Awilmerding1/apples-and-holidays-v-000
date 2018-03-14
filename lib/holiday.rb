@@ -61,7 +61,7 @@ bbq_array =[]
        array << holiday
        array.collect do |bbq|
          bbq_array << bbq
-         bbq_array[1][2]
+         bbq_array
   end
  end
  end
