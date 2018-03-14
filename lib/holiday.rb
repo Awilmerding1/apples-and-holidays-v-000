@@ -26,7 +26,7 @@ def all_winter_holiday_supplies(holiday_hash)
   string = ""
   split_string = ""
  holiday_supplies[:winter].collect do |holiday, list|
-  string = list
+  string = list.join(", ")
  string
  end
 end
