@@ -59,6 +59,7 @@ def all_holidays_with_bbq(holiday_hash)
       list.each do |check|
       if check.include?("BBQ")
       hash_keys = holiday_supplies[:seasons]
+      return hash_keys.keys
   end
 
 end
