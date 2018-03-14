@@ -29,6 +29,7 @@ def all_winter_holiday_supplies(holiday_hash)
   list_array
  end
 end
+end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_supplies.each do |season, data|
