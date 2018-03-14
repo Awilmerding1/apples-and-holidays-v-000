@@ -57,6 +57,7 @@ def all_holidays_with_bbq(holiday_hash)
     data.collect do |holiday, list|
      if list.include?("BBQ")
        holiday
+     else 
   end
  end
  end
