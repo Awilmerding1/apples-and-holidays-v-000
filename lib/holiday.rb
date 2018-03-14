@@ -23,10 +23,11 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  
+  array = []
  holiday_supplies[:winter].collect do |holiday, list|
    list.collect do |list_array|
-  list_array
+    array << list_array
+    array
  end
 end
 end
