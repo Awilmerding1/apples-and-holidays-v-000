@@ -56,7 +56,7 @@ def all_holidays_with_bbq(holiday_hash)
   hash_keys = {}
   holiday_supplies.each do |seasons, data|
     data.each do |holiday, list|
-     
+     if list.include?("BBQ")
   end
 
 end
