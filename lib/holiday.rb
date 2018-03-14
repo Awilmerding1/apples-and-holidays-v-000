@@ -57,7 +57,7 @@ array = []
   holiday_supplies.collect do |seasons, data|
     data.collect do |holiday, list|
      if list.include?("BBQ")
-       array = holiday
+       array << holiday
        array.collect do |bbq|
          bbq
   end
