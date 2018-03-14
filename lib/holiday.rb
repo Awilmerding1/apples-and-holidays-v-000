@@ -24,7 +24,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
  holiday_supplies[:winter].collect do |holiday, list|
-   list
+   list.join(",")
  end
  
 end
