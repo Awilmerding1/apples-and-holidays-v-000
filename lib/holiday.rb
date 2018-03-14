@@ -59,7 +59,7 @@ array = []
      if list.include?("BBQ")
        array << holiday
        array.collect do |bbq|
-         bbq[1]
+         bbq.
   end
  end
  end
