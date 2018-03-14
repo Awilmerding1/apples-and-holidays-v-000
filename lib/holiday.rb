@@ -53,12 +53,13 @@ end
 end
 
 def all_holidays_with_bbq(holiday_hash)
-
+string = ""
   holiday_supplies.collect do |seasons, data|
     data.collect do |holiday, list|
      if list.include?("BBQ")
-       holiday.to_s
+       string = holiday.to_s
  end
+    string
 end
 end
 end
