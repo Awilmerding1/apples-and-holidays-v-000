@@ -27,7 +27,7 @@ def all_winter_holiday_supplies(holiday_hash)
  holiday_supplies[:winter].collect do |holiday, list|
    list.collect do |list_array|
     array << list_array
-    binding.pry 
+    
     array
  end
 end
