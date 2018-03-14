@@ -54,12 +54,14 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
 array = []
+bbq_array =[]
   holiday_supplies.collect do |seasons, data|
     data.collect do |holiday, list|
      if list.include?("BBQ")
        array << holiday
        array.collect do |bbq|
-         bbq
+         bbq_array << bbq
+         bbq_array[1][2]
   end
  end
  end
