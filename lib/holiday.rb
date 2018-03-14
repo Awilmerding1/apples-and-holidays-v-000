@@ -59,7 +59,7 @@ string = ""
      if list.include?("BBQ")
        string = holiday.to_s
  end
-    string
+    string.split(",")
 end
 end
 end
