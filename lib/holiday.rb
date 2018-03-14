@@ -59,7 +59,7 @@ def all_holidays_with_bbq(holiday_hash)
      if list.include?("BBQ")
        string = holiday
   end
-    string
+    string.split
  end
  end
 end
